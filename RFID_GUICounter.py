@@ -28,12 +28,6 @@ def get_water_level(tag):
         waterLevel = str(66)
     elif 'ECDD59' in tag:
         waterLevel = str(99)
-    elif 'ECC94C' in tag:
-        waterLevel = str(99)
-    elif 'ECD378' in tag:
-        waterLevel = str(99)
-    elif 'ECB951' in tag:
-        waterLevel = str(99)
     else: # experimenting with full tag
         waterLevel = str(0)
 
