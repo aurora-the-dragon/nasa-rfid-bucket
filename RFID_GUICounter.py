@@ -42,13 +42,13 @@ def check_input_timeout():
         time.sleep(1)
 
 root = tk.Tk()
-root.geometry("300x150")
+root.geometry("600x300")
 root.title("Bucket Water Level")
 
-clock = tk.Label(root, text="Water Level: N/A", font=("Arial", 20), fg="blue")
-clock.pack(pady=20)
+clock = tk.Label(root, text="Water Level: N/A", font=("Arial", 40), fg="blue")
+clock.pack(pady=50)
 
-entry = tk.Entry(root, width=20)
+entry = tk.Entry(root, width=20, font=("Arial", 20), justify="center")
 entry.pack(pady=10)
 entry.focus_set()
 
